@@ -6,7 +6,7 @@ set -e
 # debug log
 set -x
 cd ..
-git clone -b master https://github.com/flutter/flutter.git
+git clone -b master https://github.com/piysun/jenkins_flutter
 export PATH=`pwd`/flutter/bin:$PATH
 flutter channel stable
 flutter doctor
